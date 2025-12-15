@@ -2,7 +2,7 @@ const featuresSlides = [
   {
     key: 'start',
     title: 'Aprendizaje digital',
-    img: '/images/stackIcons/css.svg',
+    img: '/images/teoricoFacil/features1.png',
     description: [
       <>
         Arquitectura visual y patrones de interacción:{' '}
@@ -26,7 +26,7 @@ const featuresSlides = [
   {
     key: 'medals',
     title: 'Mapa interactivo gamificado',
-    img: '/images/stackIcons/figma.svg',
+    img: '/images/teoricoFacil/features2.png',
     description: [
       <>
         Diseño: <strong>Flujo visual</strong> con paradas y estados claros,
@@ -48,7 +48,7 @@ const featuresSlides = [
   {
     key: 'unlock',
     title: 'Sistema de gamificación',
-    img: '/images/stackIcons/firebaseAuth.svg',
+    img: '/images/teoricoFacil/features3.png',
     description: [
       <>
         Diseño: sistema de tornillos que recompensa el{' '}
@@ -70,7 +70,7 @@ const featuresSlides = [
   {
     key: 'test',
     title: 'Corrección inteligente de tests',
-    img: '/images/stackIcons/react.svg',
+    img: '/images/teoricoFacil/features4.png',
     description: [
       <>
         Diseño: dos modos de corrección ( <strong>inmediata</strong> vs{' '}
@@ -92,7 +92,7 @@ const featuresSlides = [
   {
     key: 'responsive',
     title: 'Responsive 360º',
-    img: '/images/stackIcons/stripe.svg',
+    img: '/images/teoricoFacil/features5.png',
     description: [
       <>
         Diseño: <strong>2 breakpoints</strong> adaptados, no solo escalados.
@@ -113,7 +113,7 @@ const featuresSlides = [
   {
     key: 'theory',
     title: 'Teoría + Estadísticas por tema',
-    img: '/images/stackIcons/resend.svg',
+    img: '/images/teoricoFacil/features6.png',
     description: [
       <>
         Diseño: interfaz clara que muestra qué temas <strong>domina</strong> y
@@ -134,7 +134,7 @@ const featuresSlides = [
   {
     key: 'design',
     title: 'Diseño limpio y centrado en el usuario',
-    img: '/images/stackIcons/node.svg',
+    img: '/images/teoricoFacil/features7.png',
     description: [
       <>
         Diseño: interfaces <strong>claras</strong>, orden visual y componentes{' '}

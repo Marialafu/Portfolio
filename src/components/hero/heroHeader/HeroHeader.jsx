@@ -27,7 +27,7 @@ const HeroHeader = () => {
 
       <img
         className='hero-img'
-        src='/images/stackIcons/figma.svg'
+        src='/images/profile-picture.jpeg'
         alt='Mi perfil'
       />
     </div>
