@@ -1,0 +1,12 @@
+.bullets-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.bullets-wrapper {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+}

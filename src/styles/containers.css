@@ -1,0 +1,31 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column.small-gap {
+  gap: 0.625rem;
+}
+
+.flex-column.medium-gap {
+  gap: 0.9375rem;
+}
+
+.flex-column.large-gap {
+  gap: 1.875rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row.space-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-row.center {
+  justify-content: center;
+  align-items: center;
+}

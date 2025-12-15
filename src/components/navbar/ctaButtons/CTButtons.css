@@ -1,0 +1,9 @@
+.flex-row.CTAButtons-container {
+  gap: 0.625rem;
+}
+
+@media (min-width: 768px) {
+  .CTAButtons-container {
+    gap: 0.9375rem;
+  }
+}

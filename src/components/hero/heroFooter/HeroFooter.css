@@ -1,0 +1,33 @@
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.4375rem;
+}
+
+.item-social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  align-items: center;
+}
+
+.social-img {
+  height: 2.625rem;
+}
+
+.hero-footer-button {
+  position: relative;
+  top: 0.9375rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 1024px) {
+  .social-container {
+    gap: 2.5rem;
+  }
+
+  .social-img {
+    height: 2.375rem;
+  }
+}

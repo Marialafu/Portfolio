@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.9375rem 0.3125rem;
+  gap: 0.625rem;
+}
+
+.divider {
+  height: 1.4063rem;
+  width: 0.0469rem;
+  border-radius: 6.25rem;
+  background-color: var(--color-accent);
+  flex-shrink: 0;
+}

@@ -1,0 +1,31 @@
+.heroSection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.heroTag-container {
+  display: flex;
+  gap: 0.625rem;
+  justify-content: center;
+}
+
+.heroTag-item {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.hero-img {
+  border-radius: 6.25rem;
+  width: 8.5625rem;
+  height: 8.5625rem;
+}
+
+@media (min-width: 1024px) {
+  .hero-img {
+    width: 11.125rem;
+    height: 11.125rem;
+  }
+}

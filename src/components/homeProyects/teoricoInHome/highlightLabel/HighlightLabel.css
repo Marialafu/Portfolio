@@ -1,0 +1,13 @@
+.highlight-container {
+  width: 100vw;
+  position: relative;
+  left: -1rem;
+  padding: 0.3125rem;
+  background-color: var(--color-active-bg);
+  display: flex;
+  justify-content: center;
+}
+
+.highlight-label {
+  color: var(--color-active);
+}
