@@ -2,7 +2,7 @@ const featuresSlides = [
   {
     key: 'start',
     title: 'Digital learning',
-    img: '/images/teoricoFacil/features1.png',
+    img: '/images/teoricoFacil/features1.webp',
     description: [
       <>
         Definition of <strong>visual architecture</strong> and{' '}
@@ -29,7 +29,7 @@ const featuresSlides = [
   {
     key: 'medals',
     title: 'Gamified interactive map',
-    img: '/images/teoricoFacil/features2.png',
+    img: '/images/teoricoFacil/features2.webp',
     description: [
       <>
         Creation of a <strong>guided visual flow</strong> with clear states,
@@ -54,7 +54,7 @@ const featuresSlides = [
   {
     key: 'unlock',
     title: 'Gamification system',
-    img: '/images/teoricoFacil/features3.png',
+    img: '/images/teoricoFacil/features3.webp',
     description: [
       <>
         Visual reward system that encourages <strong>performance</strong>{' '}
@@ -76,7 +76,7 @@ const featuresSlides = [
   {
     key: 'test',
     title: 'Smart test correction',
-    img: '/images/teoricoFacil/features4.png',
+    img: '/images/teoricoFacil/features4.webp',
     description: [
       <>
         Two differentiated correction modes (<strong>immediate feedback</strong>{' '}
@@ -97,7 +97,7 @@ const featuresSlides = [
   {
     key: 'responsive',
     title: '360º responsive design',
-    img: '/images/teoricoFacil/features5.png',
+    img: '/images/teoricoFacil/features5.webp',
     description: [
       <>
         Definition of <strong>functional breakpoints</strong>, adapted to
@@ -119,7 +119,7 @@ const featuresSlides = [
   {
     key: 'theory',
     title: 'Theory + topic-based statistics',
-    img: '/images/teoricoFacil/features6.png',
+    img: '/images/teoricoFacil/features6.webp',
     description: [
       <>
         Clear visualization of user knowledge, showing which topics the user{' '}
@@ -141,7 +141,7 @@ const featuresSlides = [
   {
     key: 'design',
     title: 'Clean, user-centered design',
-    img: '/images/teoricoFacil/features7.png',
+    img: '/images/teoricoFacil/features7.webp',
     description: [
       <>
         <strong>Clear, accessible, and consistent interfaces</strong>, based on

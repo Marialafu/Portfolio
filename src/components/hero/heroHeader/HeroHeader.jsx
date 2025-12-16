@@ -27,7 +27,7 @@ const HeroHeader = () => {
 
       <img
         className='hero-img'
-        src='/images/profile-picture.jpeg'
+        src='/images/profile-picture.webp'
         alt='Mi perfil'
       />
     </div>
