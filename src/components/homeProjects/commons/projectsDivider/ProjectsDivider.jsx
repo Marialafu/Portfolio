@@ -1,4 +1,4 @@
-import './projectsDivider.css';
+import './ProjectsDivider.css';
 
 const ProjectsDivider = () => {
   return (
