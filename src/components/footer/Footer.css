@@ -1,0 +1,15 @@
+.footer-container {
+  margin-bottom: 1.25rem;
+}
+
+.footerTag-container {
+  display: flex;
+  gap: 0.625rem;
+  justify-content: center;
+}
+
+.footerTag-item {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}

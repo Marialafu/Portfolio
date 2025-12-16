@@ -1,0 +1,15 @@
+.projectsDivider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.projects-divider {
+  width: 50%;
+  height: 0.1875rem;
+  background-color: var(--color-primary);
+  border-radius: 6.25rem;
+  align-items: center;
+}

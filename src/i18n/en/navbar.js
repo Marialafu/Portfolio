@@ -1,8 +1,8 @@
 export const navbar = {
   cta: {
-    contact: 'Let´s talk?',
+    contact: 'Let’s talk',
     cv: 'Resume'
   },
   start: 'Home',
-  proyects: 'Projects'
+  projects: 'Projects'
 };

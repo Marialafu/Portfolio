@@ -30,3 +30,9 @@
     justify-content: start;
   }
 }
+
+@media (min-width: 1181px) {
+  .heroContent-container {
+    z-index: 3;
+  }
+}

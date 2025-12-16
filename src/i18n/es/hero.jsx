@@ -6,13 +6,15 @@ export const hero = {
 
   description: (
     <>
-      Especializada en <strong>React, Node.js</strong> y diseño de interfaces
-      centradas en el usuario. Creo productos digitales que combinan{' '}
-      <strong>diseño estratégico</strong> y <strong>código escalable</strong>.
+      Especializada en <strong>React</strong> y{' '}
+      <strong>diseño de interfaces</strong> centradas en el usuario. Creo
+      productos digitales que combinan <strong>diseño estratégico</strong> y{' '}
+      <strong>código escalable</strong>.
     </>
   ),
 
   stack: ['Figma', 'JavaScript', 'HTML', 'CSS', 'React'],
 
-  primaryCTA: 'Proyectos que hablan por mí'
+  primaryCTA: 'Proyecto que define mi trabajo'
+  // proyectos que hablan por mí
 };

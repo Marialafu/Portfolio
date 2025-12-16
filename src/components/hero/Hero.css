@@ -23,7 +23,7 @@
 
   .hero-wrapper {
     flex-direction: row;
-    gap: 10rem;
+    gap: 5.3125rem;
     align-items: start;
     justify-content: center;
   }

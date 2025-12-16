@@ -1,6 +1,7 @@
 import './HeroContent.css';
 import { useContext } from 'react';
 import { LanguageContext } from '../../../context/LanguageContext';
+import { v4 } from 'uuid';
 
 const HeroContent = () => {
   const { text } = useContext(LanguageContext);
@@ -17,7 +18,7 @@ const HeroContent = () => {
       <div className='hero-stack-container'>
         {hero.stack.map((item, i) => (
           <div
-            key={item}
+            key={v4()}
             className='hero-item-stack-container'
           >
             <label className='label'>{item}</label>

@@ -5,6 +5,7 @@ export const common = {
 
   buttons: {
     knowMore: 'Saber más',
-    proyect: 'Ver proyecto'
+    proyect: 'Ver proyecto',
+    platform: 'Ver plataforma'
   }
 };

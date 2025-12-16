@@ -4,5 +4,5 @@ export const navbar = {
     cv: 'CV'
   },
   start: 'Inicio',
-  proyects: 'Proyectos'
+  projects: 'Proyectos'
 };
