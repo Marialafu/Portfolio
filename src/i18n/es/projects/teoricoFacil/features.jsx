@@ -5,73 +5,73 @@ const featuresSlides = [
     img: '/images/teoricoFacil/features1.png',
     description: [
       <>
-        Definición de <strong>arquitectura visual</strong> y
-        <strong> patrones de interacción</strong> basados en una{' '}
-        <strong>guía de diseño propia</strong>: navegación clara, jerarquía
-        visual consistente y coherencia entre pantallas.
+        Plataforma clara, sencilla y amigable,{' '}
+        <strong>
+          {' '}
+          eliminando la complejidad y aburrimiento de otras opciones del sector
+        </strong>
+        .
       </>,
       <>
-        Frontend en <strong>React</strong>, backend en <strong>Node.js</strong>{' '}
-        con <strong>MongoDB</strong>, autenticación con{' '}
-        <strong>Firebase</strong> e integración de pagos mediante{' '}
-        <strong>Stripe</strong>.
+        <strong>
+          Navegación intuitiva, jerarquía visual y componentes reutilizables
+        </strong>{' '}
+        para asegurar la consistencia.
       </>
     ],
     apprenticeship: (
       <>
-        Aprendizaje: estructuración de un <strong>producto completo</strong>,
-        desde el modelado de datos y endpoints <strong>escalables</strong>
-        hasta la conexión del estado global con backend y una{' '}
-        <strong>UI reutilizable y mantenible</strong>.
+        Aprendizaje: estructuración de un{' '}
+        <strong>producto completo UX/UI</strong>, desde flujos de usuario y
+        wireframes hasta prototipos interactivos.
       </>
     )
   },
   {
-    key: 'medals',
-    title: 'Mapa interactivo gamificado',
+    key: 'map',
+    title: 'Mapa gamificado',
     img: '/images/teoricoFacil/features2.png',
     description: [
       <>
-        Creación de un <strong>flujo visual guiado</strong>, con estados claros,
-        hitos reconocibles y <strong>progreso siempre visible</strong> para el
-        usuario.
+        Creación de un <strong>flujo visual guiado</strong>, con progreso
+        siempre visible y hitos reconocibles para motivar al usuario.
       </>,
       <>
-        Implementación de <strong>lógica de desbloqueo</strong>
-        mediante <strong>React + Context</strong>, sincronizada en tiempo real
-        con <strong>MongoDB</strong>.
+        Implementación de <strong>medallas y recompensas visuales</strong> que
+        generan entusiasmo y refuerzan la motivación más allá del objetivo
+        final.
       </>
     ],
     apprenticeship: (
       <>
-        Gestión de <strong>estados dependientes complejos</strong>
-        (progreso → medallas → desbloqueos) a través de una{' '}
-        <strong>función centralizada</strong>, evitando inconsistencias y
-        duplicación de lógica.
+        Aprendizaje: Gestión de <strong>progreso y estados dependientes</strong>{' '}
+        de manera consistente y visual, evitando confusión y pérdida de
+        motivación.
       </>
     )
   },
   {
-    key: 'unlock',
-    title: 'Sistema de gamificación',
-    img: '/images/teoricoFacil/features3.png',
+    key: 'responsive',
+    title: 'Diseño responsive',
+    img: '/images/teoricoFacil/features5.png',
     description: [
       <>
-        Sistema de recompensas visuales que incentiva el{' '}
-        <strong>rendimiento</strong> sin generar fricción ni{' '}
-        <strong>saturación cognitiva</strong>.
+        Diseño <strong>mobile-first</strong> adaptado a móviles, tablets y
+        desktop, asegurando una experiencia consistente en todos los
+        dispositivos.
       </>,
       <>
-        Sistema de <strong>acumulación y desbloqueo</strong>
-        conectado a backend, con <strong>actualización inmediata</strong>
-        del estado del usuario.
+        componentes adaptativos que mantienen{' '}
+        <strong>
+          jerarquía clara, alineación consistente y equilibrio visual
+        </strong>{' '}
+        en todos los dispositivos.
       </>
     ],
     apprenticeship: (
       <>
-        Definición de <strong>reglas y validaciones robustas</strong>:
-        prevención de exploits, control de condiciones y coordinación de estados
-        a través de <strong>múltiples vistas</strong>.
+        Resolución de <strong>problemas reales de responsividad</strong> y
+        creación de un sistema predecible para cualquier tamaño de pantalla.
       </>
     )
   },
@@ -81,92 +81,93 @@ const featuresSlides = [
     img: '/images/teoricoFacil/features4.png',
     description: [
       <>
-        Dos modos de corrección diferenciados (
-        <strong>feedback inmediato</strong> vs <strong>modo examen</strong>)
-        adaptados a distintos estilos de aprendizaje.
+        <strong>Diferentes modos de corrección </strong> (feedback inmediato vs
+        modo examen),{' '}
+        <strong>adaptados a distintos estilos de aprendizaje</strong>.
       </>,
       <>
-        Módulo de corrección centralizado mediante <strong>Context</strong>,
-        distribuyendo resultados y estado a toda la aplicación.
+        <strong>Interfaz limpia y legible</strong>, eliminando anuncios y
+        elementos que dificultan la comprensión, mejorando la experiencia del
+        usuario.
       </>
     ],
     apprenticeship: (
       <>
-        Aprendizaje clave: evitar el <strong>“spaghetti state”</strong>
-        creando un <strong>único punto de control</strong> para toda la lógica
-        de evaluación.
+        Aprendizaje clave:{' '}
+        <strong>presentar los resultados de manera clara y limpia</strong>,
+        centralizando la lógica de evaluación para evitar inconsistencias y
+        garantizar que el usuario comprenda su progreso de un solo vistazo.
       </>
     )
   },
   {
-    key: 'responsive',
-    title: 'Responsive 360º',
-    img: '/images/teoricoFacil/features5.png',
+    key: 'unlock',
+    title: 'Desbloqueo de elementos',
+    img: '/images/teoricoFacil/features3.png',
     description: [
       <>
-        Definición de <strong>breakpoints funcionales</strong>, adaptados al
-        contenido y no simples escalados visuales.
+        Sistema de <strong>recompensas y desbloqueos</strong> que incentiva la
+        emoción del usuario a medida que avanza.
       </>,
       <>
-        Componentes <strong>fluidos y adaptativos</strong>
-        con <strong>Styled Components</strong> y media queries claramente
-        estructuradas.
+        Elementos premium y funcionalidades liberadas según progreso, creando un
+        flujo de <strong>motivación constante</strong>.
       </>
     ],
     apprenticeship: (
       <>
-        Detección y resolución de{' '}
-        <strong>problemas reales de responsividad</strong>, construyendo un
-        sistema <strong>estable y predecible</strong>
-        para cualquier tamaño de pantalla.
+        Aprendizaje: Definición de{' '}
+        <strong>reglas de desbloqueo robustas</strong> y coordinación de estados
+        para asegurar consistencia entre vistas.
       </>
     )
   },
+
   {
-    key: 'theory',
-    title: 'Teoría + Estadísticas por tema',
+    key: 'stats',
+    title: 'Estadísticas y progreso',
     img: '/images/teoricoFacil/features6.png',
     description: [
       <>
-        Visualización clara del conocimiento del usuario, mostrando qué
-        contenidos <strong>domina</strong> y cuáles debe{' '}
-        <strong>reforzar</strong>.
+        <strong>Visualización clara del progreso del usuario,</strong> mostrando
+        tests realizados, aciertos y áreas a reforzar.
       </>,
       <>
-        Consumo de <strong>datos dinámicos</strong> desde backend: progreso,
-        aciertos, tiempo invertido y nivel del usuario.
+        Feedback visual que{' '}
+        <strong>
+          evita frustración y permite seguimiento del aprendizaje de manera
+          efectiva
+        </strong>
+        .
       </>
     ],
     apprenticeship: (
       <>
-        Transformación de <strong>datos complejos</strong> en métricas útiles,
-        renderizables y optimizadas sin comprometer <strong>rendimiento</strong>
-        .
+        Transformación de datos complejosen{' '}
+        <strong>métricas útiles y comprensibles</strong> , priorizando
+        experiencia de usuario y claridad visual.
       </>
     )
   },
   {
-    key: 'design',
-    title: 'Diseño limpio y centrado en el usuario',
+    key: 'mosaic',
+    title: 'Mosaico de pantallas',
     img: '/images/teoricoFacil/features7.png',
     description: [
       <>
-        Interfaces <strong>claras, accesibles y consistentes</strong>, basadas
-        en una <strong>guía de diseño</strong> para garantizar coherencia visual
-        y reutilización de componentes.
+        <strong>Desarrollo del flujo entre pantallas</strong>, mostrando cómo se
+        integran todos los elementos UX/UI de manera coherente y verificando que
+        el usuario pueda moverse bien por toda la web.
       </>,
       <>
-        Arquitectura completa desde wireframes hasta backend: UI → componentes →
-        lógica → persistencia, utilizando hooks, módulos y{' '}
-        <strong>funciones puras</strong>.
+        Diseño consistente y accesible, con componentes reutilizables y
+        jerarquía visual clara.
       </>
     ],
     apprenticeship: (
       <>
-        Aprendizaje: creación de código <strong>escalable y mantenible</strong>,
-        separando lógica y presentación, con componentes{' '}
-        <strong>desacoplados</strong> y organización por{' '}
-        <strong>funcionalidades</strong>.
+        Aprendizaje: consolidación de <strong>un diseño integral UX/UI</strong>{' '}
+        y visualización de la experiencia completa del producto.
       </>
     )
   }
@@ -174,5 +175,5 @@ const featuresSlides = [
 
 export const features = {
   featuresSlides: featuresSlides,
-  caption: 'Desliza para descubrir las cualidades de Teórico'
+  caption: 'Haz clic para descubrir las cualidades de Teórico'
 };

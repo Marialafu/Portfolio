@@ -1,15 +1,19 @@
 export const stack = {
   figma: {
     img: '/images/stackIcons/figma.svg',
-    name: 'Figma'
+    name: 'Figma (Prototyping & Interactions)'
   },
-  js: {
-    img: '/images/stackIcons/javaScript.svg',
-    name: 'JavaScript'
+  figjam: {
+    img: '',
+    name: 'FigJam'
   },
-  react: {
-    img: '/images/stackIcons/react.svg',
-    name: 'React'
+  illustrator: {
+    img: '/images/stackIcons/ilustrador-adobe.svg',
+    name: 'Adobe Illustrator'
+  },
+  html: {
+    img: '/images/stackIcons/html-5.svg',
+    name: 'HTML'
   },
   css: {
     img: '/images/stackIcons/css.svg',
@@ -17,34 +21,14 @@ export const stack = {
   },
   styledComponents: {
     img: '',
-    name: 'Styled Components'
+    name: 'Design System'
   },
-  apiRest: {
+  responsive: {
     img: '',
-    name: 'REST API'
+    name: 'Responsive Design'
   },
-  node: {
-    img: '/images/stackIcons/node.svg',
-    name: 'Node.js'
-  },
-  express: {
+  accessibility: {
     img: '',
-    name: 'Express'
-  },
-  mongoDB: {
-    img: '/images/stackIcons/mongoDB.svg',
-    name: 'MongoDB'
-  },
-  firebaseAuth: {
-    img: '/images/stackIcons/firebaseAuth.svg',
-    name: 'Firebase Auth'
-  },
-  stripe: {
-    img: '/images/stackIcons/stripe.svg',
-    name: 'Stripe'
-  },
-  resend: {
-    img: '/images/stackIcons/resend.svg',
-    name: 'Resend'
+    name: 'Accessibility'
   }
 };

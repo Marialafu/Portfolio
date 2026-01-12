@@ -1,31 +1,40 @@
 export const role = {
-  title: 'My role in Theoretical Easy',
+  title: 'My Role in Teórico Fácil',
   cards: [
     {
-      title: 'UX/UI',
+      title: 'UX',
       items: [
-        'Design in Figma',
-        'Mobile-first architecture',
-        'Complete visual system',
-        'Microinteractions'
+        'User research',
+        'Metrics analysis and feedback',
+        'User flows and information architecture',
+        'Usability testing'
+      ]
+    },
+    {
+      title: 'UI',
+      items: [
+        'Interface design in Figma',
+        'Design system implementation',
+        'Microinteractions and prototyping',
+        'Mobile-first responsive design'
       ]
     },
     {
       title: 'Frontend',
       items: [
-        'React + JavaScript',
+        'HTML, CSS, and JavaScript',
         'Styled Components',
-        'Context API',
-        'Backend integration'
+        'Collaboration with the development team'
       ]
     },
     {
-      title: 'Backend',
-      items: ['Node.js + Express', 'MongoDB', 'Firebase Auth', 'Stripe, Resend']
-    },
-    {
       title: 'Product',
-      items: ['Test logic', 'Gamification', 'Unlocks', 'Statistics']
+      items: [
+        'Gamification and user motivation',
+        'Unlockable elements',
+        'Test logic and feedback',
+        'User statistics and progress tracking'
+      ]
     }
   ]
 };

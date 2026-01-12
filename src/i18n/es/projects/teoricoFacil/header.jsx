@@ -11,31 +11,38 @@ export const header = {
     title: 'IMPACTO DEL PROYECTO',
     items: [
       <>
-        <strong>Plataforma real</strong> usada por +1000 estudiantes.
+        <strong>Plataforma real</strong> centrada en el usuario utilizada por
+        +5000 estudiantes,
+        <strong>mejorando la experiencia de aprendizaje de este sector</strong>.
       </>,
       <>
-        <strong>Arquitectura completa</strong> diseño → frontend → backend →
-        base de datos.
+        <strong>Arquitectura</strong> de la información completa{' '}
+        <strong>con flujos claros y jerarquía intuitiva</strong> para facilitar
+        la navegación.
       </>,
       <>
-        <strong>Mapa gamificado</strong> que mejora la motivación y el progreso
-        del alumno.
+        <strong>Mapa gamificado</strong> que motiva a los usuarios y{' '}
+        <strong>visualiza su progreso </strong>
+        de manera interactiva.
       </>,
       <>
-        <strong>Sistema de tests inteligentes</strong> con corrección en tiempo
-        real o al finalizar test.
+        <strong>Sistema de tests inteligentes</strong> diseñado para ofrecer
+        retroalimentación inmediata y mejorar la comprensión del estudiante.
       </>,
       <>
-        <strong>Aplicación escalable</strong> con React + Node + MongoDB +
-        Firebase.
+        <strong>Diseño escalable y consistente</strong> con interfaces
+        responsive y componentes reutilizables que aseguran coherencia en toda
+        la aplicación.
       </>
     ]
   },
 
   description: (
     <>
-      <strong>Diseñé y desarrollé end-to-end</strong> una plataforma educativa{' '}
-      <strong>real</strong> para preparar el examen teórico de conducir.
+      <strong>
+        Análisis de necesidades → Flujo del usuario → Creación del sistema de
+        diseño → Diseño de wireframes → Flujo entre pantallas → Prototipado
+      </strong>
     </>
   ),
   goal: (

@@ -1,31 +1,40 @@
 export const role = {
-  title: 'Mi rol en teórico fácil',
+  title: 'Mi rol en Teórico Fácil',
   cards: [
     {
-      title: 'UX/UI',
+      title: 'UX',
       items: [
-        'Diseño en Figma',
-        'Arquitectura mobile-first',
-        'Sistema visual completo',
-        'Microinteracciones'
+        'Investigación de usuario',
+        'Análisis de métricas y feedback',
+        'Flujos de usuario y arquitectura',
+        'Pruebas de usabilidad'
+      ]
+    },
+    {
+      title: 'UI',
+      items: [
+        'Diseño de interfaces en Figma',
+        'Sistema design system',
+        'Microinteracciones y prototipado',
+        'Diseño responsive mobile-first'
       ]
     },
     {
       title: 'Frontend',
       items: [
-        'React + JavaScript',
+        'HTML, CSS y JavaScript',
         'Styled Components',
-        'Context API',
-        'Integración con backend'
+        'Integración con el equipo de desarrollo'
       ]
     },
     {
-      title: 'Backend',
-      items: ['Node.js + Express', 'MongoDB', 'Firebase Auth', 'Stripe, Resend']
-    },
-    {
       title: 'Producto',
-      items: ['Lógica de test', 'Gamificación', 'Desbloqueos', 'Estadísticas']
+      items: [
+        'Gamificación y motivación del usuario',
+        'Desbloqueo de elementos',
+        'Lógica de tests y retroalimentación',
+        'Estadísticas y seguimiento del aprendizaje'
+      ]
     }
   ]
 };

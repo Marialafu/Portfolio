@@ -2,7 +2,7 @@ import { PROYECT_LINKS } from '../../../../constants/informationLinks';
 
 export const header = {
   title: 'TEÓRICO COCHE FÁCIL',
-  subtitle: 'Be prepare for the driving theory exam',
+  subtitle: 'Prepare for the driving theory exam',
   status: 'Active',
   statusKey: 'active',
   link: PROYECT_LINKS.teoricoFacil,
@@ -11,38 +11,42 @@ export const header = {
     title: 'PROJECT IMPACT',
     items: [
       <>
-        <strong>Real platform</strong> used by over 1000 students.
+        <strong>Real user-centered platform</strong> used by +5000 students,
+        <strong>enhancing the learning experience in this sector</strong>.
       </>,
       <>
-        <strong>Full architecture</strong> from design → frontend → backend →
-        database.
+        <strong>Complete information architecture</strong>
+        <strong>with clear flows and intuitive hierarchy</strong> to make
+        navigation easier.
       </>,
       <>
-        <strong>Gamified map</strong> that enhances student motivation and
-        progress.
+        <strong>Gamified map</strong> that motivates users and
+        <strong>visualizes their progress</strong> interactively.
       </>,
       <>
-        <strong>Smart test system</strong> with real-time feedback or
-        end-of-test corrections.
+        <strong>Smart testing system</strong> designed to provide immediate
+        feedback and improve student comprehension.
       </>,
       <>
-        <strong>Scalable application</strong> built with React, Node, MongoDB,
-        and Firebase.
+        <strong>Scalable and consistent design</strong> with responsive
+        interfaces and reusable components, ensuring coherence across the
+        application.
       </>
     ]
   },
 
   description: (
     <>
-      <strong>I designed and developed end-to-end</strong> a{' '}
-      <strong>real educational platform</strong> for preparing the driving
-      theory exam.
+      <strong>
+        Needs analysis → User flow → Design system creation → Wireframe design →
+        Screen flows → Prototyping
+      </strong>
     </>
   ),
   goal: (
     <>
-      <strong>The goal:</strong> to enhance student motivation and comprehension
-      through gamification, microinteractions, and an interactive map.
+      <strong>The goal:</strong> improve student motivation and understanding
+      through gamification, microinteractions, and an interactive progress map.
     </>
   )
 };

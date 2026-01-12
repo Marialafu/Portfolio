@@ -6,14 +6,16 @@ export const hero = {
 
   description: (
     <>
-      Especializada en <strong>React</strong> y{' '}
-      <strong>diseño de interfaces</strong> centradas en el usuario. Creo
-      productos digitales que combinan <strong>diseño estratégico</strong> y{' '}
-      <strong>código escalable</strong>.
+      Enfocada en crear experiencias digitales claras, intuitivas y atractivas.
+      Especializada en{' '}
+      <strong>diseño de interfaces centradas en el usuario</strong>,{' '}
+      <strong>prototipado interactivo</strong> y{' '}
+      <strong>diseño responsive mobile-first</strong>. Combino investigación de
+      usuarios, análisis de métricas y <strong>diseño estratégico</strong>.
     </>
   ),
 
-  stack: ['Figma', 'JavaScript', 'HTML', 'CSS', 'React'],
+  stack: ['Figma', 'Adobe', 'HTML', 'CSS', 'JavaScript'],
 
   primaryCTA: 'Proyecto que define mi trabajo'
   // proyectos que hablan por mí

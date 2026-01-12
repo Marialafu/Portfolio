@@ -20,16 +20,27 @@
   --font-secondary: 'Raleway', sans-serif;
 
   /* Sizes */
-  --text-xs: 11px;
-  --text-s: 14px;
-  --text-m: 15px;
-  --text-l: 16px;
-  --text-xl: 22px;
-  --text-xxl: 32px;
+  --text-xs: 0.6875rem;
+  --text-s: 0.875rem;
+  --text-m: 0.9375rem;
+  --text-l: 1rem;
+  --text-xl: 1.375rem;
+  --text-xxl: 2rem;
 
   /* Weight */
   --weight-regular: 400;
   --weight-medium: 500;
   --weight-semibold: 600;
   --weight-bold: 700;
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --text-xs: 0.75rem;
+    --text-s: 0.9375rem;
+    --text-m: 1rem;
+    --text-l: 1.0625rem;
+    --text-xl: 1.4375rem;
+    --text-xxl: 2.0625rem;
+  }
 }
