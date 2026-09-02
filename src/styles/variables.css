@@ -15,6 +15,10 @@
   --color-inactive: #950075;
   --color-inactive-bg: #ff62f7;
 
+  /* SHADOWS */
+  --shadow-primary: 0 0 1.25rem 0 var(--color-primary);
+  --shadow-accent: 0 0 1.25rem 0 color-mix(in srgb, var(--color-accent) 70%, transparent);
+
   /* TYPOGRAPHY */
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Raleway", sans-serif;

@@ -74,24 +74,24 @@
   .heroHeader-kicker {
     font-size: clamp(
       1.25rem,
-      calc(1.25rem + (100vw - 800px) * 0.05),
-      2.75rem
+      calc(1.25rem + (100vw - 800px) * 0.0313),
+      2rem
     );
   }
 
   .heroHeader-headline {
     font-size: clamp(
       2.75rem,
-      calc(2.75rem + (100vw - 800px) * 0.075),
-      5rem
+      calc(2.75rem + (100vw - 800px) * 0.0417),
+      3.75rem
     );
   }
 
   .heroHeader-signature {
     font-size: clamp(
       2.5rem,
-      calc(2.5rem + (100vw - 800px) * 0.0667),
-      4.5rem
+      calc(2.5rem + (100vw - 800px) * 0.0417),
+      3.5rem
     );
     margin-top: clamp(
       -0.875rem,

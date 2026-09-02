@@ -1,0 +1,17 @@
+.homeProjects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6.25rem;
+  max-width: 71rem;
+  margin: 0 auto;
+  padding: 5rem 1rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .homeProjects {
+    padding: 5rem 2rem;
+  }
+}

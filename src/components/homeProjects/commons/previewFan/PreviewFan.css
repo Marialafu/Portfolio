@@ -1,0 +1,81 @@
+.previewFan {
+  position: relative;
+  width: 20.5rem;
+  height: 21.07rem;
+  margin-inline: auto;
+}
+
+.previewFan-circle {
+  position: absolute;
+  left: 50%;
+  top: 34%;
+  width: 13.75rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  transform: translateX(-50%);
+}
+
+.previewFan-shot {
+  position: absolute;
+  object-fit: cover;
+  border-radius: 0.9375rem;
+  box-shadow: var(--shadow-primary);
+  transition:
+    transform 0.45s ease,
+    box-shadow 0.45s ease;
+}
+
+.previewFan-shot--left,
+.previewFan-shot--right {
+  top: 3.75rem;
+  left: 50%;
+  width: 7.25rem;
+  height: 16rem;
+  z-index: 1;
+}
+
+.previewFan-shot--left {
+  --rest: translateX(calc(-50% - 4.25rem)) rotate(-13deg);
+  --jump: translateX(calc(-50% - 4.75rem)) translateY(-0.75rem) rotate(-13deg);
+  transform: var(--rest);
+}
+
+.previewFan-shot--right {
+  --rest: translateX(calc(-50% + 4.25rem)) rotate(13deg);
+  --jump: translateX(calc(-50% + 4.75rem)) translateY(-0.75rem) rotate(13deg);
+  transform: var(--rest);
+}
+
+.previewFan-shot--center {
+  --rest: translateX(-50%);
+  --jump: translateX(-50%) translateY(-0.875rem);
+  left: 50%;
+  top: 2rem;
+  width: 8.75rem;
+  height: 18.75rem;
+  z-index: 2;
+  transform: var(--rest);
+}
+
+.previewFan.is-lifted .previewFan-shot {
+  box-shadow: var(--shadow-accent);
+}
+
+.previewFan.is-lifted .previewFan-shot--left,
+.previewFan.is-lifted .previewFan-shot--right,
+.previewFan.is-lifted .previewFan-shot--center {
+  transform: var(--jump);
+}
+
+@media (min-width: 50rem) {
+  .projectCard:hover .previewFan-shot {
+    box-shadow: var(--shadow-accent);
+  }
+
+  .projectCard:hover .previewFan-shot--left,
+  .projectCard:hover .previewFan-shot--right,
+  .projectCard:hover .previewFan-shot--center {
+    transform: var(--jump);
+  }
+}

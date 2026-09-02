@@ -1,0 +1,30 @@
+.projectCard {
+  width: 100%;
+  max-width: 20.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.projectCard-info {
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.projectCard-copy {
+  gap: 0.3125rem;
+  text-align: center;
+  width: 100%;
+}
+
+.projectCard-stack {
+  gap: 1.25rem;
+}
+
+.projectCard-icon {
+  display: block;
+  height: 1.25rem;
+  width: auto;
+  max-width: none;
+  object-fit: contain;
+  flex-shrink: 0;
+}
