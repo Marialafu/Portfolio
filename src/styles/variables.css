@@ -1,6 +1,6 @@
 :root {
   /* COLORS */
-  --color-primary: #e7e2fb;
+  --color-primary: #d5cbff;
   --color-primary-muted: rgba(255, 255, 255, 0.4);
 
   --color-accent-dark: #250f86;
@@ -16,8 +16,8 @@
   --color-inactive-bg: #ff62f7;
 
   /* TYPOGRAPHY */
-  --font-primary: 'Montserrat', sans-serif;
-  --font-secondary: 'Raleway', sans-serif;
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
 
   /* Sizes */
   --text-xs: 0.6875rem;
