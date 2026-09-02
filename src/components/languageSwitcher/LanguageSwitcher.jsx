@@ -19,7 +19,7 @@ const LanguageSwitcher = () => {
       >
         {spanish}
       </button>
-      <span className='divider' />
+      <span className='divider vertical' />
       <button
         className={defineClass(english)}
         onClick={() => setLang(english)}

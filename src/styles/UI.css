@@ -6,9 +6,17 @@
 }
 
 .divider {
-  height: 1.4063rem;
-  width: 0.0469rem;
   border-radius: 6.25rem;
   background-color: var(--color-accent);
   flex-shrink: 0;
+}
+
+.divider.vertical {
+  height: 1.4063rem;
+  width: 0.0469rem;
+}
+
+.divider.horizontal {
+  width: 4.125rem;
+  height: 0.0625rem;
 }

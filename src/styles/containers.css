@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.flex-column.center {
+  align-items: center;
+}
+
 .flex-column.small-gap {
   gap: 0.625rem;
 }
@@ -28,4 +32,12 @@
 .flex-row.center {
   justify-content: center;
   align-items: center;
+}
+
+.flex-row.small-gap {
+  gap: 0.625rem;
+}
+
+.flex-row.medium-gap {
+  gap: 0.9375rem;
 }

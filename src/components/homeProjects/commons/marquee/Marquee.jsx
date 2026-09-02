@@ -35,7 +35,7 @@ const Marquee = ({ stack }) => {
             )}
 
             <span className='body'>{item.name}</span>
-            {i < loop.length - 1 && <div className='divider' />}
+            {i < loop.length - 1 && <div className='divider vertical' />}
           </div>
         ))}
       </div>

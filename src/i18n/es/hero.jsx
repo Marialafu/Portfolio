@@ -1,5 +1,8 @@
 export const hero = {
-  tag: ['Diseño UX/UI', 'Desarrollo Front-end'],
+  tag: ['Diseño UX/UI', 'Proyectos end-to-end', 'Desarrollo front-end'],
+  headlineKicker: 'DE LA IDEA',
+  headline: 'AL CÓDIGO',
+  signature: 'María Lafuente',
 
   intro: '¡Hola! Soy',
   name: 'MARÍA LAFUENTE',

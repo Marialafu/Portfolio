@@ -16,7 +16,7 @@ const Footer = () => {
             className='footerTag-item'
           >
             <label>{tag}</label>
-            {i < footer.tag.length - 1 && <span className='divider' />}
+            {i < footer.tag.length - 1 && <span className='divider vertical' />}
           </div>
         ))}
       </div>
