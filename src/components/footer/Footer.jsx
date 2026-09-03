@@ -1,30 +1,44 @@
 import './Footer.css';
-import { useContext } from 'react';
-import { LanguageContext } from '../../context/LanguageContext';
-import { v4 } from 'uuid';
+import { PERSONAL_DATA } from '../../constants/informationLinks';
 
 const Footer = () => {
-  const { text } = useContext(LanguageContext);
-  const { footer } = text;
-
   return (
-    <div className='flex-column small-gap footer-container'>
-      <div className='footerTag-container'>
-        {footer.tag.map((tag, i) => (
-          <div
-            key={v4()}
-            className='footerTag-item'
-          >
-            <label>{tag}</label>
-            {i < footer.tag.length - 1 && <span className='divider vertical' />}
-          </div>
-        ))}
-      </div>
-      <div className='footerTag-container'>
-        <span>{footer.contact.phone}</span>
-        <span>{footer.contact.email}</span>
-      </div>
-    </div>
+    <footer className='flex-row center footer-container'>
+      <a
+        className='button secondary'
+        href={PERSONAL_DATA.linkedin}
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <img
+          className='footer-icon'
+          src='/images/social/linkedin.svg'
+          alt='LinkedIn'
+        />
+      </a>
+      <a
+        className='button secondary'
+        href={`mailto:${PERSONAL_DATA.email}`}
+      >
+        <img
+          className='footer-icon'
+          src='/images/social/email.svg'
+          alt='Email'
+        />
+      </a>
+      <a
+        className='button secondary'
+        href={PERSONAL_DATA.github}
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <img
+          className='footer-icon'
+          src='/images/social/github.svg'
+          alt='GitHub'
+        />
+      </a>
+    </footer>
   );
 };
 

@@ -8,32 +8,31 @@ export const home = {
         'Transforma temario aburrido en una experiencia visual, interactiva y adictiva para los alumnos.',
       href: PROYECT_LINKS.teoricoFacil,
       preview: {
-        left: '/images/teoricoFacil/features1.png',
-        center: '/images/teoricoFacil/features2.png',
-        right: '/images/teoricoFacil/features5.png'
+        left: '/images/teoricoFacil/teorico-left.png',
+        center: '/images/teoricoFacil/teorico-center.png',
+        right: '/images/teoricoFacil/teorico-rigth.png'
       },
       stack: [
         { src: '/images/stackIcons/figma.svg', alt: 'Figma' },
-        { src: '/images/stackIcons/ilustrador-adobe.svg', alt: 'Adobe Illustrator' },
-        { src: '/images/stackIcons/html-5.svg', alt: 'HTML' },
-        { src: '/images/stackIcons/css.svg', alt: 'CSS' }
+        { src: '/images/stackIcons/adobe-illustrator.svg', alt: 'Adobe Illustrator' },
+        { src: '/images/stackIcons/react.svg', alt: 'React' },
+        { src: '/images/stackIcons/javascript.svg', alt: 'JavaScript' }
       ]
     },
     {
       title: 'MEDICIÓN DE CONSUMO',
       description:
-        'Diseño de una plataforma para autónomos y empresas que simplifica el control y análisis de gastos de consumo en un solo vistazo.',
+        'Simplifica el control y análisis de gastos de consumo en un solo vistazo.',
       href: '#',
       preview: {
-        left: '/images/teoricoFacil/features3.png',
-        center: '/images/teoricoFacil/features4.png',
-        right: '/images/teoricoFacil/features6.png'
+        left: '/images/consumptionTraking/consumptionTracking-left.png',
+        center: '/images/consumptionTraking/consumptionTracking-center.png',
+        right: '/images/consumptionTraking/consumptionTracking-rigth.png'
       },
       stack: [
         { src: '/images/stackIcons/figma.svg', alt: 'Figma' },
-        { src: '/images/stackIcons/ilustrador-adobe.svg', alt: 'Adobe Illustrator' },
-        { src: '/images/stackIcons/node.svg', alt: 'Node.js' },
-        { src: '/images/stackIcons/mongoDB.svg', alt: 'MongoDB' }
+        { src: '/images/stackIcons/javascript.svg', alt: 'JavaScript' },
+        { src: '/images/stackIcons/chartjs.svg', alt: 'Chart.js' }
       ]
     }
   ]

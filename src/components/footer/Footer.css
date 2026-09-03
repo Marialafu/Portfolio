@@ -1,15 +1,18 @@
 .footer-container {
+  gap: 0.625rem;
   margin-bottom: 1.25rem;
 }
 
-.footerTag-container {
-  display: flex;
-  gap: 0.625rem;
-  justify-content: center;
+.footer-icon {
+  display: block;
+  height: 1.25rem;
+  width: auto;
+  max-width: none;
+  object-fit: contain;
 }
 
-.footerTag-item {
-  display: flex;
-  align-items: center;
-  gap: 0.625rem;
+@media (min-width: 768px) {
+  .footer-container {
+    gap: 0.9375rem;
+  }
 }

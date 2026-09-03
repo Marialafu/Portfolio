@@ -17,7 +17,7 @@
 
   /* SHADOWS */
   --shadow-primary: 0 0 1.25rem 0 var(--color-primary);
-  --shadow-accent: 0 0 1.25rem 0 color-mix(in srgb, var(--color-accent) 70%, transparent);
+  --shadow-accent: 0 0 1.25rem 0 color-mix(in srgb, var(--color-accent) 40%, transparent);
 
   /* TYPOGRAPHY */
   --font-primary: "Montserrat", sans-serif;
