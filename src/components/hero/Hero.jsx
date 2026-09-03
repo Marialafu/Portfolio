@@ -11,7 +11,7 @@ const Hero = () => {
   const isWide = useIsDesktop(VIDEO_MAX_WIDTH);
 
   return (
-    <section className='flex-column'>
+    <section className='flex-column hero'>
       <div className='heroHeader'>
         <video
           className='heroHeader-collage'
@@ -28,7 +28,7 @@ const Hero = () => {
         </video>
       </div>
 
-      <div className='flex-column large-gap center'>
+      <div className='flex-column large-gap center hero-copy'>
         <div className='flex-column center'>
           <h2 className='flex-column center heroHeader-title'>
             <span className='heroHeader-kicker'>{hero.headlineKicker}</span>

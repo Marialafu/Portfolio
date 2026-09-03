@@ -1,0 +1,12 @@
+@media (min-width: 800px) {
+  .home-firstScreen {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    max-height: 100dvh;
+  }
+
+  .home-firstScreen .navbar-container {
+    flex-shrink: 0;
+  }
+}
