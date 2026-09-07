@@ -1,7 +1,18 @@
+import { copyFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
+function githubPagesSpaFallback() {
+  return {
+    name: 'github-pages-spa-fallback',
+    closeBundle() {
+      const index = resolve('dist/index.html');
+      copyFileSync(index, resolve('dist/404.html'));
+    }
+  };
+}
+
 export default defineConfig({
-  plugins: [react()]
+  plugins: [react(), githubPagesSpaFallback()]
 });
