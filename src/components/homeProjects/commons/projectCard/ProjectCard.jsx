@@ -1,19 +1,24 @@
 import { Fragment, useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { LanguageContext } from '../../../../context/LanguageContext';
 import PreviewFan from '../previewFan/PreviewFan';
 import './ProjectCard.css';
 
-const ProjectCard = ({ preview, title, description, stack = [], href }) => {
+const ProjectCard = ({
+  preview,
+  title,
+  description,
+  stack = [],
+  path
+}) => {
   const { text } = useContext(LanguageContext);
-  const isExternal = href?.startsWith('http');
+  const Card = path ? Link : 'article';
+  const cardProps = path ? { to: path } : {};
 
   return (
-    <a
+    <Card
       className='flex-column large-gap center projectCard'
-      href={href}
-      {...(isExternal
-        ? { target: '_blank', rel: 'noopener noreferrer' }
-        : {})}
+      {...cardProps}
     >
       <PreviewFan
         left={preview.left}
@@ -52,7 +57,7 @@ const ProjectCard = ({ preview, title, description, stack = [], href }) => {
       </div>
 
       <span className='button secondary'>{text.common.buttons.knowMore}</span>
-    </a>
+    </Card>
   );
 };
 

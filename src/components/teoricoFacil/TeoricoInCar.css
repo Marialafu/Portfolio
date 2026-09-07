@@ -1,0 +1,84 @@
+.teoricoInCar {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.teoricoInCar-bg {
+  display: block;
+  width: 100%;
+  height: 12.5rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.teoricoInCar-phones {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: -3.25rem;
+  padding-inline: 1rem;
+}
+
+.teoricoInCar-phones img {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  animation: teoricoInCar-enter 0.55s ease-out both;
+}
+
+.teoricoInCar-phones img:nth-child(1) {
+  animation-delay: 0.06s;
+}
+
+.teoricoInCar-phones img:nth-child(2) {
+  animation-delay: 0.16s;
+}
+
+.teoricoInCar-phones img:nth-child(3) {
+  animation-delay: 0.26s;
+}
+
+@keyframes teoricoInCar-enter {
+  from {
+    opacity: 0;
+    transform: translateX(-1.25rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .teoricoInCar-phones img {
+    animation: none;
+  }
+}
+
+@media (min-width: 764px) {
+  .teoricoInCar-bg {
+    height: 22rem;
+  }
+
+  .teoricoInCar-phones {
+    width: auto;
+    max-width: 34.375rem;
+    margin-top: -10rem;
+    padding-left: 1.875rem;
+    padding-right: 0;
+    box-sizing: content-box;
+  }
+}
+
+@media (min-width: 1024px) {
+  .teoricoInCar-phones {
+    padding-left: 3.125rem;
+  }
+}

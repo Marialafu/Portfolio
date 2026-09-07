@@ -1,3 +1,4 @@
+import { ROUTES } from '../../lib/config/router/routes';
 import { PROYECT_LINKS } from '../../constants/informationLinks';
 
 export const home = {
@@ -7,10 +8,11 @@ export const home = {
       description:
         'Turn boring theory content into a visual, interactive and addictive experience for students.',
       href: PROYECT_LINKS.teoricoFacil,
+      path: ROUTES.teoricoFacil,
       preview: {
-        left: '/images/teoricoFacil/teorico-left.png',
-        center: '/images/teoricoFacil/teorico-center.png',
-        right: '/images/teoricoFacil/teorico-rigth.png'
+        left: '/images/teoricoFacil/teorico-left.webp',
+        center: '/images/teoricoFacil/teorico-center.webp',
+        right: '/images/teoricoFacil/teorico-rigth.webp'
       },
       stack: [
         { src: '/images/stackIcons/figma.svg', alt: 'Figma' },

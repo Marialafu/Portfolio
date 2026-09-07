@@ -5,6 +5,10 @@
   color: inherit;
 }
 
+a.projectCard {
+  cursor: pointer;
+}
+
 .projectCard-info {
   gap: 1.25rem;
   width: 100%;

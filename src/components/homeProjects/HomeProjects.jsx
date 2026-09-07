@@ -18,7 +18,7 @@ const HomeProjects = () => {
           title={project.title}
           description={project.description}
           stack={project.stack}
-          href={project.href}
+          path={project.path}
         />
       ))}
     </section>
