@@ -18,15 +18,15 @@ export const teoricoFacil = {
     },
     phones: [
       {
-        src: '/images/teoricoFacil/mockup-map.png',
+        src: '/images/teoricoFacil/mockup-map.webp',
         alt: 'Progress map screen'
       },
       {
-        src: '/images/teoricoFacil/mockup-study-test-selected.png',
+        src: '/images/teoricoFacil/mockup-study-test-selected.webp',
         alt: 'Test screen with a selected option'
       },
       {
-        src: '/images/teoricoFacil/mockup-study-test-corrected.png',
+        src: '/images/teoricoFacil/mockup-study-test-corrected.webp',
         alt: 'Test screen with the correction'
       }
     ]
