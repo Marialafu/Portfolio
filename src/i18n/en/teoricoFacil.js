@@ -9,7 +9,7 @@ export const teoricoFacil = {
       'The problem is not studying. It is how industry platforms are built.',
       'This project rethinks the theory-test experience with a more visual, friendly and interactive approach designed to hook students from the first minute.'
     ],
-    stack: ['Figma', 'React JS', 'Styled-components']
+    stack: ['Figma', 'Illustrator', 'React JS', 'Styled-components']
   },
   inCar: {
     background: {

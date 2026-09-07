@@ -41,7 +41,7 @@
 .teoricoFlexible-laptop img {
   width: 135%;
   max-width: none;
-  height: 12.5rem;
+  height: 15.5rem;
   object-fit: cover;
   object-position: 50% 22%;
   position: relative;
@@ -82,7 +82,7 @@
   .teoricoFlexible-laptop img {
     width: 150%;
     max-width: none;
-    height: 17rem;
+    height: 20rem;
     object-fit: cover;
     object-position: 50% 22%;
     position: relative;

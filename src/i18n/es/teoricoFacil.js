@@ -9,7 +9,7 @@ export const teoricoFacil = {
       'El problema no es estudiar. Es cómo están hechas las plataformas del sector.',
       'Este proyecto replantea la experiencia del teórico con un enfoque más visual, amigable e interactivo pensado para enganchar desde el primer minuto.'
     ],
-    stack: ['Figma', 'React JS', 'Styled-components']
+    stack: ['Figma', 'Illustrator', 'React JS', 'Styled-components']
   },
   inCar: {
     background: {
