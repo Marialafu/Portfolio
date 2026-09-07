@@ -13,7 +13,7 @@ export const teoricoFacil = {
   },
   inCar: {
     background: {
-      src: '/images/teoricoFacil/luxury-car-interior-steering-wheel-shift-lever-dashboard-computer.jpg',
+      src: '/images/teoricoFacil/luxury-car-interior-steering-wheel-shift-lever-dashboard-computer.webp',
       alt: 'Interior de un coche'
     },
     phones: [
@@ -39,7 +39,7 @@ export const teoricoFacil = {
       'La estructura se mantiene consistente, pero cada dispositivo prioriza las funciones más relevantes para estudiar de forma cómoda.'
     ],
     city: {
-      src: '/images/teoricoFacil/japan-urban-landscape.jpg',
+      src: '/images/teoricoFacil/japan-urban-landscape.webp',
       alt: 'Paisaje urbano'
     },
     laptop: {
