@@ -34,8 +34,7 @@ export const teoricoFacil = {
   flexible: {
     paragraphs: [
       'El responsive se diseñó pensando en los distintos momentos y formas de estudiar con Teórico Fácil.',
-      'En móvil, se prioriza un acceso rápido y sencillo a la teoría, los tests y el mapa, para poder estudiar desde cualquier lugar.',
-      'En desktop, se aprovecha el espacio y el tamaño de pantalla para consultar la teoría de forma más cómoda y visual.',
+      'En móvil, se prioriza un acceso rápido y sencillo para poder estudiar desde cualquier lugar. En ordenador, se aprovecha el espacio y tamaño de la pantalla para permitir una consulta de la teoría más cómoda.',
       'La estructura se mantiene consistente, pero cada dispositivo prioriza las funciones más relevantes para estudiar de forma cómoda.'
     ],
     city: {

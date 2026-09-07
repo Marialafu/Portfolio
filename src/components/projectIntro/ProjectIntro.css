@@ -66,3 +66,9 @@
     padding-inline: 3.125rem;
   }
 }
+
+@media (min-width: 1280px) {
+  .projectIntro {
+    padding-inline: 5rem;
+  }
+}

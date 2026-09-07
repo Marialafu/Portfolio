@@ -9,6 +9,7 @@
   position: absolute;
   left: 50%;
   top: 34%;
+  z-index: 0;
   width: 13.75rem;
   aspect-ratio: 1;
   border-radius: 50%;
@@ -19,7 +20,7 @@
 .previewFan-shot {
   position: absolute;
   object-fit: cover;
-  border-radius: 0.9375rem;
+  border-radius: 0.625rem;
   box-shadow: var(--shadow-primary);
   transition:
     transform 0.45s ease,
@@ -69,6 +70,11 @@
 }
 
 @media (min-width: 50rem) {
+  .previewFan-circle {
+    top: auto;
+    bottom: -0.75rem;
+  }
+
   .projectCard:hover .previewFan-shot {
     box-shadow: var(--shadow-accent);
   }

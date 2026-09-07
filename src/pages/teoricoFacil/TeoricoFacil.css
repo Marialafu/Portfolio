@@ -12,3 +12,9 @@
     padding-bottom: 3.75rem;
   }
 }
+
+@media (min-width: 1280px) {
+  .teoricoFacil {
+    gap: 6.25rem;
+  }
+}
