@@ -1,0 +1,64 @@
+.teoricoMosaico {
+  --mosaico-bg-h: max(15rem, calc(15rem / 22.75rem * 100vw));
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.teoricoMosaico-bg {
+  display: block;
+  width: 100%;
+  height: var(--mosaico-bg-h);
+  object-fit: cover;
+  object-position: center;
+}
+
+.teoricoMosaico-overlay {
+  position: relative;
+  display: block;
+  left: 35.7%;
+  width: 78.2%;
+  height: auto;
+  max-width: none;
+  margin-top: calc(2.125rem - var(--mosaico-bg-h));
+  z-index: 1;
+}
+
+.teoricoMosaico-copy {
+  position: absolute;
+  left: 0.9375rem;
+  top: 1.25rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: none;
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.title.teoricoMosaico-copy {
+  font-size: max(0.9375rem, calc(0.9375rem / 22.75rem * 100vw));
+}
+
+.teoricoMosaico-copy span {
+  white-space: nowrap;
+}
+
+@media (min-width: 47.75rem) {
+  .teoricoMosaico-overlay {
+    left: 35.64%;
+    width: 78.04%;
+    margin-top: calc(4.45rem - var(--mosaico-bg-h));
+  }
+
+  .teoricoMosaico-copy {
+    left: 1.875rem;
+    top: 3.125rem;
+  }
+
+  .title.teoricoMosaico-copy {
+    font-size: max(1.875rem, calc(1.875rem / 47.75rem * 100vw));
+  }
+}

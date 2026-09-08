@@ -1,20 +1,66 @@
+.teoricoFacil-shell {
+  position: relative;
+}
+
+.teoricoFacil-shell .footer-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2.5rem;
+  z-index: 2;
+  margin-bottom: 0;
+}
+
 .teoricoFacil {
   display: flex;
   flex-direction: column;
-  gap: 3.75rem;
+  gap: 4.375rem;
   padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 0;
+}
+
+.mockup-statistics {
+  position: relative;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+}
+
+.mockup-statistics img {
+  position: absolute;
+  left: 45%;
+  top: 35%;
+  display: block;
+  width: 150%;
+  height: auto;
+  max-width: none;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 752 / 564;
 }
 
 @media (min-width: 764px) {
   .teoricoFacil {
     padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
+    padding-bottom: 0;
+  }
+
+  .mockup-statistics {
+    height: 28.125rem;
+  }
+
+  .mockup-statistics img {
+    width: 110%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mockup-statistics {
+    height: 550px;
   }
 }
 
 @media (min-width: 1280px) {
   .teoricoFacil {
-    gap: 6.25rem;
+    gap: 6.875rem;
   }
 }

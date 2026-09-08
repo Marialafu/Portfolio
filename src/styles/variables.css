@@ -31,6 +31,8 @@
   --text-l: 1rem;
   --text-xl: 1.375rem;
   --text-xxl: 2rem;
+  --text-title: 1.25rem;
+  --text-title-md: 1.875rem;
 
   /* Weight */
   --weight-regular: 400;

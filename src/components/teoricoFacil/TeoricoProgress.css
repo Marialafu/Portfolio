@@ -1,0 +1,35 @@
+.teoricoProgress {
+  width: 100%;
+  padding-inline: 1rem;
+}
+
+.teoricoProgress-content {
+  max-width: 34.375rem;
+}
+
+.teoricoProgress-body {
+  gap: 0.625rem;
+}
+
+.teoricoProgress-goals {
+  list-style: none;
+  gap: 0.625rem;
+}
+
+@media (min-width: 764px) {
+  .teoricoProgress {
+    padding-inline: 1.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .teoricoProgress {
+    padding-inline: 3.125rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .teoricoProgress {
+    padding-inline: 5rem;
+  }
+}

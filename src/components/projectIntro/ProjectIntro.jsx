@@ -6,7 +6,7 @@ const ProjectIntro = ({ title, href, openLabel, paragraphs = [], stack = [] }) =
     <section className='projectIntro'>
       <div className='flex-column projectIntro-content'>
         <div className='flex-row projectIntro-titleRow'>
-          <h2 className='projectIntro-title'>{title}</h2>
+          <h2 className='title projectIntro-title'>{title}</h2>
           {href && (
             <a
               className='projectIntro-link'
