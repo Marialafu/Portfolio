@@ -47,7 +47,6 @@ const TeoricoFacil = () => {
         <TeoricoMosaico
           background={mosaico.background}
           mosaic={mosaico.mosaic}
-          lines={mosaico.lines}
         />
         <TeoricoResponsive
           paragraphs={responsive.paragraphs}
