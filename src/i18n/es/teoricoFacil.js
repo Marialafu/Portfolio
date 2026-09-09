@@ -13,7 +13,7 @@ export const teoricoFacil = {
   },
   inCar: {
     background: {
-      src: '/images/teoricoFacil/hands-wheel-when-driving-high-speed-from-inside-car.webp',
+      src: '/images/teoricoFacil/teorico-in-car-bg.webp',
       alt: 'Manos en el volante conduciendo'
     },
     phones: [
@@ -31,43 +31,33 @@ export const teoricoFacil = {
       }
     ]
   },
-  flexible: {
+  responsive: {
     paragraphs: [
       'El responsive se diseñó pensando en los distintos momentos y formas de estudiar con Teórico Fácil.',
       'En móvil, se prioriza un acceso rápido y sencillo para poder estudiar desde cualquier lugar. En ordenador, se aprovecha el espacio y tamaño de la pantalla para permitir una consulta de la teoría más cómoda.',
       'La estructura se mantiene consistente, pero cada dispositivo prioriza las funciones más relevantes para estudiar de forma cómoda.'
     ],
     city: {
-      src: '/images/teoricoFacil/long-highway-lined-with-trees-countryside-with-colorful-afternoon-sky.webp',
+      src: '/images/teoricoFacil/teorico-responsive-highway.webp',
       alt: 'Carretera larga entre árboles'
     },
     laptop: {
-      src: '/images/teoricoFacil/close-up-girl-learning-with-laptop.webp',
+      src: '/images/teoricoFacil/teorico-responsive-computer.webp',
       alt: 'Persona estudiando el teórico en un portátil'
     }
   },
   'mockup-statistics': {
-    src: '/images/teoricoFacil/mockup-statistics-with-phone.webp',
+    src: '/images/teoricoFacil/teorico-statistics.webp',
     alt: 'Estadísticas de estudio en el móvil',
     paragraphs: [
-      'Aprobar el examen es una meta, pero no tiene por qué ser la única.',
-      'Teórico Fácil convierte el progreso en una colección de pequeños objetivos:'
-    ],
-    goals: [
-      'Avanzar por el mapa,',
-      'Mejorar cada parada',
-      'Conseguir tornillos',
-      'Desbloquear contenido educativo exclusivo.'
-    ],
-    closing: [
-      'Cada paso aporta una recompensa y hace que el siguiente objetivo esté un poco más cerca.',
+      'Convierte el progreso en una colección de pequeños objetivos: Avanzar por el mapa, mejorar cada parada, consigue tornillos y desbloquea contenido educativo exclusivo.',
       'Porque si aprobar es el destino, también hay que hacer que apetezca recorrer el camino.'
     ]
   },
   mosaico: {
     background: {
-      src: '/images/teoricoFacil/vertical-shot-curvy-road-down-hill-with-buildings-distance.webp',
-      alt: 'Carretera con curvas en una ladera'
+      src: '/images/teoricoFacil/teorico-mosaic-bg.webp',
+      alt: 'Mujer haciendo el examen práctico del carnet de conducir'
     },
     mosaic: {
       src: '/images/teoricoFacil/teorico-mosaico.png',

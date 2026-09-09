@@ -4,15 +4,24 @@
   overflow-x: hidden;
 }
 
+.teoricoInCar-bgWrap {
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+}
+
 .teoricoInCar-bg {
   display: block;
   width: 100%;
-  height: 15rem;
+  height: 100%;
   object-fit: cover;
   object-position: center;
+  transform-origin: center;
 }
 
 .teoricoInCar-phones {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: flex-end;
   gap: 0.5rem;
@@ -32,7 +41,7 @@
 }
 
 @media (min-width: 764px) {
-  .teoricoInCar-bg {
+  .teoricoInCar-bgWrap {
     height: 24.5rem;
   }
 

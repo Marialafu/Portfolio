@@ -13,7 +13,7 @@ export const teoricoFacil = {
   },
   inCar: {
     background: {
-      src: '/images/teoricoFacil/hands-wheel-when-driving-high-speed-from-inside-car.webp',
+      src: '/images/teoricoFacil/teorico-in-car-bg.webp',
       alt: 'Hands on the steering wheel while driving'
     },
     phones: [
@@ -31,7 +31,7 @@ export const teoricoFacil = {
       }
     ]
   },
-  flexible: {
+  responsive: {
     paragraphs: [
       'The responsive design was built around the different moments and ways of studying with Teórico Fácil.',
       'On mobile, theory, tests and the map stay quick and easy to reach, so studying can happen from anywhere.',
@@ -39,36 +39,26 @@ export const teoricoFacil = {
       'The structure stays consistent, while each device puts first the functions that make studying comfortable.'
     ],
     city: {
-      src: '/images/teoricoFacil/long-highway-lined-with-trees-countryside-with-colorful-afternoon-sky.webp',
+      src: '/images/teoricoFacil/teorico-responsive-highway.webp',
       alt: 'Long highway lined with trees'
     },
     laptop: {
-      src: '/images/teoricoFacil/close-up-girl-learning-with-laptop.webp',
+      src: '/images/teoricoFacil/teorico-responsive-computer.webp',
       alt: 'Person studying the theory test on a laptop'
     }
   },
   'mockup-statistics': {
-    src: '/images/teoricoFacil/mockup-statistics-with-phone.webp',
+    src: '/images/teoricoFacil/teorico-statistics.webp',
     alt: 'Study statistics on a phone',
     paragraphs: [
-      'Passing the exam is a goal, but it does not have to be the only one.',
-      'Teórico Fácil turns progress into a collection of small objectives:'
-    ],
-    goals: [
-      'Move forward on the map,',
-      'Improve each stop',
-      'Collect screws',
-      'Unlock exclusive educational content.'
-    ],
-    closing: [
-      'Each step brings a reward and makes the next goal a little closer.',
+      'Turn progress into a collection of small objectives: Move forward on the map, improve each stop, collect screws and unlock exclusive educational content.',
       'Because if passing is the destination, the path also has to be worth walking.'
     ]
   },
   mosaico: {
     background: {
-      src: '/images/teoricoFacil/vertical-shot-curvy-road-down-hill-with-buildings-distance.webp',
-      alt: 'Winding road on a hillside'
+      src: '/images/teoricoFacil/teorico-mosaic-bg.webp',
+      alt: 'Woman taking her driver’s license test in a vehicle'
     },
     mosaic: {
       src: '/images/teoricoFacil/teorico-mosaico.png',

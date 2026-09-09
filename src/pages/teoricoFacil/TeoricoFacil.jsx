@@ -4,7 +4,7 @@ import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
 import ProjectIntro from '../../components/projectIntro/ProjectIntro';
 import TeoricoInCar from '../../components/teoricoFacil/TeoricoInCar';
-import TeoricoFlexible from '../../components/teoricoFacil/TeoricoFlexible';
+import TeoricoResponsive from '../../components/teoricoFacil/TeoricoResponsive';
 import TeoricoMosaico from '../../components/teoricoFacil/TeoricoMosaico';
 import TeoricoProgress from '../../components/teoricoFacil/TeoricoProgress';
 import TeoricoLevel from '../../components/teoricoFacil/TeoricoLevel';
@@ -12,7 +12,7 @@ import './TeoricoFacil.css';
 
 const TeoricoFacil = () => {
   const teoricoFacil = useContext(LanguageContext).text.teoricoFacil;
-  const { intro, inCar, flexible, mosaico, level } = teoricoFacil;
+  const { intro, inCar, responsive, mosaico, level } = teoricoFacil;
   const mockupStatistics = teoricoFacil['mockup-statistics'];
 
   return (
@@ -36,20 +36,15 @@ const TeoricoFacil = () => {
             alt={mockupStatistics.alt}
           />
         </div>
-        <TeoricoProgress
-          paragraphs={mockupStatistics.paragraphs}
-          goals={mockupStatistics.goals}
-          closing={mockupStatistics.closing}
-        />
+        <TeoricoProgress paragraphs={mockupStatistics.paragraphs} />
         <TeoricoMosaico
           background={mosaico.background}
           mosaic={mosaico.mosaic}
-          lines={mosaico.lines}
         />
-        <TeoricoFlexible
-          paragraphs={flexible.paragraphs}
-          city={flexible.city}
-          laptop={flexible.laptop}
+        <TeoricoResponsive
+          paragraphs={responsive.paragraphs}
+          city={responsive.city}
+          laptop={responsive.laptop}
         />
         <TeoricoLevel
           background={level.background}

@@ -1,6 +1,6 @@
 import './TeoricoMosaico.css';
 
-const TeoricoMosaico = ({ background, mosaic, lines = [] }) => {
+const TeoricoMosaico = ({ background, mosaic }) => {
   return (
     <section className='teoricoMosaico'>
       <img
@@ -13,11 +13,6 @@ const TeoricoMosaico = ({ background, mosaic, lines = [] }) => {
         src={mosaic.src}
         alt={mosaic.alt}
       />
-      <p className='title teoricoMosaico-copy'>
-        {lines.map(line => (
-          <span key={line}>{line}</span>
-        ))}
-      </p>
     </section>
   );
 };

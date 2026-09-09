@@ -1,22 +1,22 @@
-import './TeoricoFlexible.css';
+import './TeoricoResponsive.css';
 
-const TeoricoFlexible = ({ paragraphs, city, laptop }) => {
+const TeoricoResponsive = ({ paragraphs, city, laptop }) => {
   return (
-    <section className='teoricoFlexible'>
-      <div className='teoricoFlexible-city'>
+    <section className='teoricoResponsive'>
+      <div className='teoricoResponsive-city'>
         <img
           src={city.src}
           alt={city.alt}
         />
       </div>
 
-      <div className='teoricoFlexible-side'>
-        <div className='teoricoFlexible-copy'>
+      <div className='teoricoResponsive-side'>
+        <div className='teoricoResponsive-copy'>
           {paragraphs.map((paragraph) => (
             <p key={paragraph} className='body'>{paragraph}</p>
           ))}
         </div>
-        <div className='teoricoFlexible-laptop'>
+        <div className='teoricoResponsive-laptop'>
           <img
             src={laptop.src}
             alt={laptop.alt}
@@ -27,4 +27,4 @@ const TeoricoFlexible = ({ paragraphs, city, laptop }) => {
   );
 };
 
-export default TeoricoFlexible;
+export default TeoricoResponsive;

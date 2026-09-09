@@ -28,14 +28,15 @@
 
 .mockup-statistics img {
   position: absolute;
-  left: 45%;
-  top: 35%;
+  left: 50%;
+  top: 50%;
   display: block;
-  width: 150%;
+  width: 130%;
   height: auto;
   max-width: none;
   transform: translate(-50%, -50%);
-  aspect-ratio: 752 / 564;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (min-width: 764px) {
@@ -61,6 +62,10 @@
 
 @media (min-width: 1280px) {
   .teoricoFacil {
-    gap: 6.875rem;
+    gap: 3.75rem;
+  }
+
+  .mockup-statistics {
+    height: 43.75rem;
   }
 }
