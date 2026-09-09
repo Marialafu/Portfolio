@@ -1,5 +1,5 @@
 export const hero = {
-  tag: ['UX/UI Design', 'End-to-end projects', 'Front-end development'],
+  tag: ['UX/UI Designer', 'AI-assisted Creative', 'Front-end developer'],
   headlineKicker: 'I DESIGN IT',
   headline: 'I BUILD IT',
   signature: 'María Lafuente',

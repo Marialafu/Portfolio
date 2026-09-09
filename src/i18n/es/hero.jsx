@@ -1,5 +1,5 @@
 export const hero = {
-  tag: ['Diseño UX/UI', 'Proyectos end-to-end', 'Desarrollo front-end'],
+  tag: ['Diseño UX/UI', 'AI Content Creator', 'Desarrollo front-end'],
   headlineKicker: 'DE LA IDEA',
   headline: 'AL CÓDIGO',
   signature: 'María Lafuente',
