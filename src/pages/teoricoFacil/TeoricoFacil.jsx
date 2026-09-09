@@ -31,15 +31,23 @@ const TeoricoFacil = () => {
           phones={inCar.phones}
         />
         <div className='mockup-statistics'>
-          <img
-            src={mockupStatistics.src}
-            alt={mockupStatistics.alt}
-          />
+          <picture>
+            <source
+              media='(min-width: 764px)'
+              srcSet={mockupStatistics.src}
+            />
+            <img
+              src={mockupStatistics.srcMobile}
+              srcSet={mockupStatistics.srcMobile}
+              alt={mockupStatistics.alt}
+            />
+          </picture>
         </div>
         <TeoricoProgress paragraphs={mockupStatistics.paragraphs} />
         <TeoricoMosaico
           background={mosaico.background}
           mosaic={mosaico.mosaic}
+          lines={mosaico.lines}
         />
         <TeoricoResponsive
           paragraphs={responsive.paragraphs}

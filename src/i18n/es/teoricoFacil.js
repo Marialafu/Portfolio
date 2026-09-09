@@ -47,7 +47,8 @@ export const teoricoFacil = {
     }
   },
   'mockup-statistics': {
-    src: '/images/teoricoFacil/teorico-statistics.webp',
+    src: '/images/teoricoFacil/teorico-statistics.jpg',
+    srcMobile: '/images/teoricoFacil/teorico-phone-statistics.jpg',
     alt: 'Estadísticas de estudio en el móvil',
     paragraphs: [
       'Convierte el progreso en una colección de pequeños objetivos: Avanzar por el mapa, mejorar cada parada, consigue tornillos y desbloquea contenido educativo exclusivo.',
@@ -65,7 +66,7 @@ export const teoricoFacil = {
     },
     lines: [
       'Haz test',
-      'Mejora los resultados',
+      'Mejora tus resultados',
       'Y aprueba el examen'
     ]
   },

@@ -31,7 +31,7 @@
 .teoricoResponsive-side {
   display: flex;
   flex-direction: column;
-  gap: 1.875rem;
+  gap: 2.1875rem;
 }
 
 .teoricoResponsive-laptop {
@@ -76,7 +76,7 @@
   .teoricoResponsive-side {
     display: flex;
     flex-direction: column;
-    gap: clamp(1rem, 0.25rem + 2vw, 2.5rem);
+    gap: clamp(1.3125rem, 0.5625rem + 2vw, 2.8125rem);
     min-width: 0;
   }
 

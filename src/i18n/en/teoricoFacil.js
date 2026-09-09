@@ -48,7 +48,8 @@ export const teoricoFacil = {
     }
   },
   'mockup-statistics': {
-    src: '/images/teoricoFacil/teorico-statistics.webp',
+    src: '/images/teoricoFacil/teorico-statistics.jpg',
+    srcMobile: '/images/teoricoFacil/teorico-phone-statistics.jpg',
     alt: 'Study statistics on a phone',
     paragraphs: [
       'Turn progress into a collection of small objectives: Move forward on the map, improve each stop, collect screws and unlock exclusive educational content.',

@@ -26,10 +26,48 @@
   z-index: 1;
 }
 
+.teoricoMosaico-copy {
+  position: absolute;
+  left: 1rem;
+  top: 1.5625rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: none;
+  color: var(--color-white);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.title.teoricoMosaico-copy {
+  font-size: max(0.5625rem, calc(0.5625rem / 22.75rem * 100vw));
+}
+
+.teoricoMosaico-copy span {
+  white-space: nowrap;
+}
+
 @media (min-width: 47.75rem) {
   .teoricoMosaico-overlay {
     width: 78.04%;
     margin-top: calc(4.45rem - var(--mosaico-bg-h));
+  }
+
+  .teoricoMosaico-copy {
+    left: 1.875rem;
+    top: 3.125rem;
+  }
+
+  .title.teoricoMosaico-copy {
+    font-size: max(1.5625rem, calc(1.5625rem / 47.75rem * 100vw));
+  }
+}
+
+@media (min-width: 1024px) {
+  .teoricoMosaico-copy {
+    left: 3.125rem;
   }
 }
 
@@ -42,5 +80,9 @@
     margin-left: 0;
     left: 50%;
     width: 63.9%;
+  }
+
+  .teoricoMosaico-copy {
+    left: 5rem;
   }
 }
