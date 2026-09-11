@@ -27,9 +27,9 @@ export const home = {
         'Simplifica el control y análisis de gastos de consumo en un solo vistazo.',
       href: '#',
       preview: {
-        left: '/images/consumptionTraking/consumptionTracking-left.png',
-        center: '/images/consumptionTraking/consumptionTracking-center.png',
-        right: '/images/consumptionTraking/consumptionTracking-rigth.png'
+        left: '/images/consumptionTraking/consumption-traking-left.webp',
+        center: '/images/consumptionTraking/consumption-traking-center.webp',
+        right: '/images/consumptionTraking/consumption-traking-right.webp'
       },
       stack: [
         { src: '/images/stackIcons/figma.svg', alt: 'Figma' },

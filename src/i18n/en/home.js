@@ -27,9 +27,9 @@ export const home = {
         'Design of a platform for freelancers and companies that simplifies monitoring and analysing consumption costs at a glance.',
       href: '#',
       preview: {
-        left: '/images/consumptionTraking/consumptionTracking-left.png',
-        center: '/images/consumptionTraking/consumptionTracking-center.png',
-        right: '/images/consumptionTraking/consumptionTracking-rigth.png'
+        left: '/images/consumptionTraking/consumption-traking-left.webp',
+        center: '/images/consumptionTraking/consumption-traking-center.webp',
+        right: '/images/consumptionTraking/consumption-traking-right.webp'
       },
       stack: [
         { src: '/images/stackIcons/figma.svg', alt: 'Figma' },
